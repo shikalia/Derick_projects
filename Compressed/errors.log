@@ -1,0 +1,7 @@
+Database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prescribed_at' in 'field list'Received Data: Array
+(
+    [doctor_id] => 4
+    [appointment_id] => 3
+    [prescription] => to the office
+)
+Database Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prescribed_at' in 'field list'Database Exception: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`main_db`.`prescriptions`, CONSTRAINT `prescriptions_ibfk_3` FOREIGN KEY (`patient_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)Database Exception: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`main_db`.`prescriptions`, CONSTRAINT `prescriptions_ibfk_3` FOREIGN KEY (`patient_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)Database Exception: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`main_db`.`prescriptions`, CONSTRAINT `prescriptions_ibfk_3` FOREIGN KEY (`patient_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
